@@ -35,13 +35,13 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ov6as5zk4w7IwtuLeP1TYW4ISwjE",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "KYLOMfenI-tqjBDu2sDyf2wpA-s95NNPRpUfx_lTvzU",
+      useTemplateId: "rK8wF6ApgWny4LTJeyaWO3qBjN6NsWGQaRNjvXc6lnU",
       // 所在省份
       province: "湖南",
       // 所在城市
       city: "长沙",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://weibo.com/hot/search"
+      openUrl: "https://weibo.com/newlogin?tabtype=search&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F"
     }
   ],
 
@@ -50,7 +50,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "npkrLv9zafQ1OUvibjJMX-1fTjKgFAh00cADr1laYww",
+  CALLBACK_TEMPLATE_ID: "wRpp_NdQLV6J7ODyLpB9fqe5P2U0bu39kEGPCnn8WZc",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -82,7 +82,7 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "亲爱的", "year": "1994", "date": "12-30"}
+    {"type": "生日", "name": "亲爱的", "year": "2004", "date": "12-30"}
   ],
 
   /**
@@ -116,14 +116,27 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-//     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "看看我宝贝是在学习了吗？"},
     // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
-    ]},
+//     {"keyword": "lover_prattle", contents: [
+//       "因为太喜欢你，所以看谁都像是情敌。",
+//       "申请成为你爱里的永久居民。",
+//       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+//       "遇见你，就好像捡到了100斤的运气",
+//     ]
+       {"keyword": "lover_prattle", contents: [
+      "宝贝，在学习了吗？",
+      "我宝贝学习的样子也太美了吧！",
+      "亲爱的，底薪15W，底薪15W，加油加油！！！",
+      "宝贝，学起来！",
+      "宝贝，加油！加油！加油！",
+      "哇哦，我宝贝又在学习呢。",
+      "咚咚咚，查岗，查岗，赶紧学起来！",
+      "hello，宝贝，我来监督你学习了哦！",
+      "宝贝，宝贝，考过了我们去好好吃一顿，庆祝一下！"
+    ]
+    
+    },
   ],
 
   /** 每日一言 */
