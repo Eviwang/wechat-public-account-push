@@ -29,11 +29,26 @@ export const config = {
    * ]
    */
   USERS: [
+    
     {
       // 想要发送的人的名字
       name: "亲爱的",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ov6as5zk4w7IwtuLeP1TYW4ISwjE",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "oNea2YAznQYLmt3xYi6nbaHHF2CtA1WLo2RYf4dTx3I",
+      // 所在省份
+      province: "湖南",
+      // 所在城市
+      city: "长沙",
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2F2a.zol-img.com.cn%2Fproduct%2F130_500x2000%2F852%2Fcee8iHuDiQdfE.jpg&refer=http%3A%2F%2F2a.zol-img.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665153051&t=2a2dfe5403ff0fbee371a34c4342ebf9"
+    },
+      {
+      // 想要发送的人的名字
+      name: "亲爱的",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "ov6as50xCtjJUh3-uomzQh1l_EOA",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "oNea2YAznQYLmt3xYi6nbaHHF2CtA1WLo2RYf4dTx3I",
       // 所在省份
